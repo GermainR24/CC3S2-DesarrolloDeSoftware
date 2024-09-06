@@ -32,7 +32,7 @@ jobs:
       # Paso 6: Construye la imagen Docker
       - name: Build Docker image
         run: docker build -t devops-practice
-        working-directory: ./Actividad1/devops-practice/ .
+        working-directory: ./Actividad1/devops-practice/
        # Paso 9: Corre el contenedor Docker (opcional)
       - name: Run Docker container
         working-directory: ./Actividad1/devops-practice/
