@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 const port = process.env.PORT || 3000
-console.log(`Using port: ${port}`);
+//console.log(`Using port: ${port}`);
 if (require.main === module) { 
     app.listen(port, () => {
         console.log(`Server running on port ${port}`);
