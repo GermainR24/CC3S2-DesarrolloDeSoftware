@@ -1,1 +1,5 @@
-print('HELLO WORLD -updated in main')
+def greet():
+    print('Fixed bug in feature') 
+   
+    print('Hello from advanced feature')
+greet()
